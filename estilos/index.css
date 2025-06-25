@@ -56,8 +56,6 @@ body {
     background-image: var(--icon-label-menu);
     background-size: cover;
     cursor: pointer;
-
-    transition: background-image .5s;
 }
 
 .nav-input {
@@ -108,16 +106,4 @@ body {
 
         transition: unset;
     }
-
 }
-
-
-/*---------------Fin de Menu Responsive-----------------*/
-
-
-
-
-
-
-
-
