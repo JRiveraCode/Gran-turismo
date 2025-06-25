@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body {
     background-color: #a57474;
     
@@ -24,8 +25,8 @@ body {
     justify-content: space-between;
     height: 80px;
 
-    --icon-toggle-menu: url(img/icon-bars.png);
-    --transform-menu-show: translate(-100%);
+    --icon-label-menu: url(/img/icon-bars.png);
+    --transform-menu-show: translate(100%);
 }
 
 .nav-figure, .nav-label {
@@ -37,15 +38,22 @@ body {
 
 }
 
+.nav-item a {
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+
+
 .nav-contenedor:has(.nav-input:checked) {
-    --icon-toggle-menu: url(img/icon-cancel.png);
+    --icon-label-menu: url(/img/icon-cancel.png);
     --transform-menu-show: translate(0);
 }
 
 .nav-label {
     width: 50px;
     height: 50px;
-    background-image: var(--icon-toggle-menu);
+    background-image: var(--icon-label-menu);
     background-size: cover;
     cursor: pointer;
 
@@ -105,6 +113,10 @@ body {
 
 
 /*---------------Fin de Menu Responsive-----------------*/
+
+
+
+
 
 
 
