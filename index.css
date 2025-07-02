@@ -174,8 +174,10 @@ table th {
 }
 
 #pelicula {
-  background: #41424C;
-  border-radius: 16px;
+  background: #00000010;
+  backdrop-filter: blur(0.4rem);
+  border: 20x #ffffff solid;
+  border-radius: 14px;
 }
 
 .pista-card {
@@ -207,6 +209,18 @@ table th {
   font-size: 1.1em;
   color: #FFD700;
 }
+
+.vGTtrailer {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: "";
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
 .video-container {
   display: flex;
   justify-content: center;
